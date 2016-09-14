@@ -1,0 +1,4 @@
+#!/bin/bash
+
+export PDSH_RCMD_TYPE=ssh
+export PDSH_SSH_ARGS_APPEND="-oStrictHostKeyChecking=no -oConnectTimeout=15"
